@@ -23,7 +23,7 @@ export const createMachine = (formdata) => {
   };
   if (newItem.index >= 0) {
     const existingMachine = fetchData("machine");
-    // const existingEquipment = fetchData("equipment");
+    const existingEquipment = fetchData("equipment");
 
     let existing = existingMachine[newItem.index];
 
